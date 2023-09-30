@@ -36,14 +36,13 @@ html {
 #drink-pic {
   background-color: #ffffff;
   padding: 0.5em;
-  height: 15em;
-  width: 15em;
   display: block;
   margin: auto;
   border-radius: 20%;
 }
-#drink-pic img {
+.container img {
   width: 100%;
+  height: auto;
   position: relative;
   width: block;
   border-radius: 50%;
