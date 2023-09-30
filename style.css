@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+html {
+  background-color: lightblue;
+}
+
+.container {
+  background-color: #171821;
+  width: 45%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2em 2em;
+  border-radius: 1em;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #ffffff;
+  box-shadow: 1px 8px 0.5px rgba(0, 0, 0, 0.1);
+}
+
+#drink-pic {
+  background-color: #ffffff;
+  padding: 0.5em;
+  height: 15em;
+  width: 15em;
+  display: block;
+  margin: auto;
+  border-radius: 20%;
+}
+#drink-pic img {
+  width: 100%;
+  position: relative;
+  width: block;
+  border-radius: 50%;
+}
+
+.main-button {
+  outline: none; 
+  border: none;
+  background-color: #00CED1;
+  color: #ffffff;
+  border-radius: 0.5em;;
+  padding: 7px 7px;
+  font-weight: bold;
+  width: 20vw;
+  height: 10vw;
+  font-size: 3vw;
+  display: block;
+  border: 3px solid #ffffff;
+}
+
+.main-button:hover {
+  background-color: #B0E0E6;
+  color: #051094;
+  cursor: pointer;
+}
+
+.display-container{
+  padding: 1em;
+}
+
+h2 {
+  padding: 0.5em 0 0.8em 0;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.inner-container {
+  background-color: lightgray;
+  padding: 10px;
+  display: none;
+  border: 6px solid #ffffff;
+}
+#try-btn {
+  display: none;
+  margin: 0 auto;
+  padding: 8px;
+  margin-top: 1em;
+  background-color: lightblue;
+}
+#try-btn:hover {
+  cursor: pointer;
+  background-color: #B0E0E6;
+  color: #051094;
+}
